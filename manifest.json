@@ -1,0 +1,12 @@
+{
+	"name": "HistoApp",
+	"start_url": "https://histoapp.netlify.app/index.html",
+	"display": "fullscreen",
+	"icons": [
+		{
+			"src": "icons/512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
+}
