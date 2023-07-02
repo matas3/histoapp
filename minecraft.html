@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="manifest" href="manifest.json" />
+		<title>HistoApp</title>
+	</head>
+	<body class="h-full">
+		<div class="flex flex-col h-full">
+			<div class="flex-1 p-4 overflow-auto">
+				<div class="flex space-x-3 pb-3 items-start">
+					<a
+						href="index.html"
+						class="transition duration-150 flex text-3xl font-bold underline bg-blue-500 p-1 rounded-xl hover:opacity-[0.85] shadow-[0px_3px_0px_0px_#1E40AF] active:shadow-[0px_1px_0px_0px_#1E40AF] active:bg-blue-600 active:translate-y-[2px]"
+					>
+						<svg
+							class="w-10 h-10 text-white"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 24 24"
+						>
+							<path
+								fill="currentColor"
+								d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"
+							/>
+						</svg>
+					</a>
+
+					<h1
+						class="text-3xl text-gray-800 font-semibold mb-2 mt-1.5"
+					>
+						All Minecraft Java Edition Versions
+					</h1>
+				</div>
+
+				<div class="divide-y divide-gray-200">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Trails & Tales
+					</p>
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-600 text-xl py-1">
+						1.20.1 - June 12, 2023
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.20 - June 7, 2023
+					</p>
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						The Wild Update
+					</p>
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-600 text-xl py-1">
+						1.19.4 - March 14, 2023
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.19.3 - December 7, 2022
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.19.2 - August 5, 2022
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.19.1 - July 27, 2022
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.19 - June 7, 2022
+					</p>
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Caves & Cliffs Part II
+					</p>
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-600 text-xl py-1">
+						1.18.2 - February 28, 2022
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.18.1 - December 10, 2021
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.18 - November 30, 2021
+					</p>
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Caves & Cliffs: Part I
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.17.1 - July 6, 2021
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.17 - June 8, 2021
+					</p>
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Nether Update
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.16.5 - January 15, 2021
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.16.4 - November 2, 2020
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.16.3 - September 10, 2020
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.16.2 - August 11, 2020
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.16.1 - June 24, 2020
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.16 - June 23, 2020
+					</p>
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Buzzy Bees
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.15.2 - January 21, 2020
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.15.1 - December 17, 2019
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.15 - December 10, 2019
+					</p>
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Village & Pillage
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.14.4 - July 19, 2019
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.14.3 - June 24, 2019
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.14.2 - May 27, 2019
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.14.1 - May 13, 2019
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.14 - April 23, 2019
+					</p>
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Update Aquatic
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.13.2 - October 22, 2018
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.13.1 - August 22, 2018
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.13 - July 18, 2018
+					</p>
+					
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						World of Color Update
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.12.2 - September 18, 2017
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.12.1 - August 3, 2017
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.12 - June 7, 2017
+					</p>
+					
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Exploration Update
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.11.2 - December 21, 2016
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.11.1 - December 20, 2016
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.11 - November 14, 2016
+					</p>
+					
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Frostburn Update
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.10.2 - June 23, 2016
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.10.1 - June 22, 2016
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.10 - June 8, 2016
+					</p>
+					
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Combat Update
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.9.4 - May 10, 2016
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.9.3 - May 10, 2016
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.9.2 - March 30, 2016
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.9.1 - March 30, 2016
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.9 - February 29, 2016
+					</p>
+					
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Bountiful Update
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.8.9 - December 9, 2015
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.8.8 - July 28, 2015
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.8.7 - June 5, 2015
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.8.6 - May 25, 2015
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.8.5 - May 22, 2015
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.8.4 - April 17, 2015
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.8.3 - February 20, 2015
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.8.2 - February 19, 2015
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.8.1 - November 24, 2014
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.8 - September 2, 2014
+					</p>
+					
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						The Update that Changed the World
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.7.10 - June 26, 2014
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.7.9 - April 14, 2014
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.7.8 - April 11, 2014
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.7.7 - April 9, 2014
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.7.6 - April 9, 2014
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.7.5 - February 26, 2014
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.7.4 - December 10, 2013
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.7.2 - October 25, 2013
+					</p>
+					
+					
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Horse Update
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.6.4 - September 19, 2013
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.6.2 - July 8, 2013
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.6.1 - July 1, 2013
+					</p>
+					
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Redstone Update
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.5.2 - May 2, 2013
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.5.1 - March 21, 2013
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.5 - March 13, 2013
+					</p>
+					
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Pretty Scary Update
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.4.7 - January 9, 2013
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.4.6 - December 20, 2012
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.4.5 - November 19, 2012
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.4.4 - November 14, 2012
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.4.2 - October 25, 2012
+					</p>
+					
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						1.3
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.3.2 - August 16, 2012
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.3.1 - August 1, 2012
+					</p>
+					
+					
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						1.2
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.2.5 - April 4, 2012
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.2.4 - March 22, 2012
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.2.3 - March 2, 2012
+					</p>
+					<p class="text-gray-600 text-xl py-1">
+						1.2.2 - March 1, 2012
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.2.1 - March 1, 2012
+					</p>
+					
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						1.1
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.1 - January 12, 2012
+					</p>
+					
+					
+				</div>
+				<div class="border-b border-gray-200 mb-1 pb-2">
+					<p class="text-gray-800 text-2xl py-1 font-semibold">
+						Adventure Update (Part 2)
+					</p>
+				</div>
+				<div>
+					<p class="text-gray-600 text-xl py-1">
+						1.0.1 
+
+					</p>
+					<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+						1.0.0 - November 18, 2011
+					</p>
+					<h1 class="text-3xl text-gray-800 font-semibold mb-2 mt-1.5 justify-center flex border-b border-gray-200  pb-2">Beta</h1>
+					<div class="border-b border-gray-200 mb-1 pb-2">
+						<p class="text-gray-800 text-2xl py-1 font-semibold">
+							Beta 1.8 
+							
+						</p>
+						<p class="text-gray-800 text-2xl py-1 font-semibold">
+							Adventure Update (Part 1)
+
+						</p>
+						
+					</div>
+					<div>
+						
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.8.1 - September 15, 2011
+						</p>
+						<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+							Beta 1.8 - September 14, 2011
+						</p>
+					</div>
+					<div class="border-b border-gray-200 mb-1 pb-2">
+						<p class="text-gray-800 text-2xl py-1 font-semibold">
+							Beta 1.7 
+							
+						</p>
+						
+						
+					</div>
+					<div>
+						
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.7.3 - July 8, 2011
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.7.2 - July 1, 2011
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.7_01 - June 30, 2011
+						</p>
+						<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+							Beta 1.7 - June 30, 2011
+						</p>
+					</div>
+					<div class="border-b border-gray-200 mb-1 pb-2">
+						<p class="text-gray-800 text-2xl py-1 font-semibold">
+							Beta 1.6
+							
+						</p>
+						
+						
+					</div>
+					<div>
+						
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.6.6 - May 31, 2011
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.6.5 - May 28, 2011
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.6.4 - May 26, 2011
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.6.3 - May 26, 2011
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.6.2 - May 26, 2011
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.6.1 - May 26, 2011
+						</p>
+						<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+							Beta 1.6 - May 26, 2011
+						</p>
+					</div>
+					<div class="border-b border-gray-200 mb-1 pb-2">
+						<p class="text-gray-800 text-2xl py-1 font-semibold">
+							Beta 1.5
+							
+						</p>
+						
+						
+					</div>
+					<div>
+						
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.5_02 (Server only) - April 20, 2011
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.5_01 - April 20, 2011
+						</p>
+						<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+							Beta 1.5 - April 19, 2011
+						</p>
+					</div>
+					<div class="border-b border-gray-200 mb-1 pb-2">
+						<p class="text-gray-800 text-2xl py-1 font-semibold">
+							Beta 1.4
+							
+						</p>
+						
+						
+					</div>
+					<div>
+						
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.4_01 - April 5, 2011
+						</p>
+						
+						<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+							Beta 1.4 - March 31, 2011
+						</p>
+					</div>
+					<div class="border-b border-gray-200 mb-1 pb-2">
+						<p class="text-gray-800 text-2xl py-1 font-semibold">
+							Beta 1.3
+							
+						</p>
+						
+						
+					</div>
+					<div>
+						
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.3_01 - February 23, 2011
+						</p>
+						
+						<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+							Beta 1.3 - February 22, 2011
+						</p>
+					</div>
+					<div class="border-b border-gray-200 mb-1 pb-2">
+						<p class="text-gray-800 text-2xl py-1 font-semibold">
+							Beta 1.2
+							
+						</p>
+						
+						
+					</div>
+					<div>
+						
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.2_02 - January 21, 2011
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.2_01 - January 14, 2011
+						</p>
+						
+						<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+							Beta 1.2 - January 13, 2011
+						</p>
+					</div>
+					<div class="border-b border-gray-200 mb-1 pb-2">
+						<p class="text-gray-800 text-2xl py-1 font-semibold">
+							Beta 1.1
+							
+						</p>
+						
+						
+					</div>
+					<div>
+						
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.1_02 - December 22, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.1_01 - December 22, 2010
+						</p>
+						
+						<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+							Beta 1.1 - December 22, 2010
+						</p>
+					</div>
+					<div class="border-b border-gray-200 mb-1 pb-2">
+						<p class="text-gray-800 text-2xl py-1 font-semibold">
+							Beta 1.0
+							
+						</p>
+						
+						
+					</div>
+					<div>
+						
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.0.2 - December 21, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Beta 1.0_01 - December 20, 2010
+						</p>
+						
+						<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+							Beta 1.0 - December 20, 2010
+						</p>
+					</div>
+					<h1 class="text-3xl text-gray-800 font-semibold mb-2 mt-1.5 justify-center flex border-b border-gray-200  pb-2">Alpha</h1>
+					<div class="border-b border-gray-200 mb-1 pb-2">
+						<p class="text-gray-800 text-2xl py-1 font-semibold">
+							Halloween Update
+							
+						</p>
+						
+						
+					</div>
+					<div>
+						
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.2.6 - December 3, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.2.5 - December 1, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.2.4_01 - November 30, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.2.3_05 - November 30, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.2.3_04 - November 26, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.2.3_02 - November 25, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.2.3_01 - November 24, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.2.3 - November 24, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.2.2 - November 10, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.2.1_01 - November 5, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.2.1 - November 5, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.2.0_02 - October 31, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.2.0_01 - October 30, 2010
+						</p>
+						
+						<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+							Beta 1.0 - October 30, 2010
+						</p>
+					</div>
+					<div class="border-b border-gray-200 mb-1 pb-2">
+						<p class="text-gray-800 text-2xl py-1 font-semibold">
+							Alpha 1.1
+							
+						</p>
+						
+						
+					</div>
+					<div>
+						
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.1.2_01 - September 23, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.1.2 - September 18, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.1.1 (Seecret Saturday 1) - September 18, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1 border-b border-gray-200 mb-1 pb-2">
+							Alpha v1.1.0 (Seecret Friday 9) - September 10, 2010
+						</p>
+					</div>
+					<div class="border-b border-gray-200 mb-1 pb-2">
+						<p class="text-gray-800 text-2xl py-1 font-semibold">
+							Alpha 1.0
+							
+						</p>
+						
+						
+					</div>
+					<div>
+						
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.17_04 - August 23, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.17_03 - August 23, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.17_02 - August 20, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.17_01 - August 20, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.17 (Seecret Friday 8) - August 20, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.16_02 - August 13, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.16_01 - August 12, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.16 - August 12, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.15 (First SMP version) - August 3, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.14 (Seecret Friday 7) - July 30, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.13_01 (1K IN 24h) - July 29, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.13 - July 28, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.12 - July 26, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.11 (Seecret Friday 6) - July 23, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.10 - July 22, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.9 - July 21, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.8_01 - July 20, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.8 - July 20, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.7 - July 19, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.6_03 - July 17, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.6_02 - July 17, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.6_01 - July 17, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.6 (Seecret Friday 5) - July 16, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.5_01 - July 14, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.5 - July 13, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.4 (Seecret Friday 4) - July 8, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.3 - July 6, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.2_02 - July 6, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.2_01 - July 6, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.2 - July 6, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.1_01 - July 6, 2010
+						</p>
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.1 (Seecret Friday 3) - July 6, 2010
+						</p>
+
+						<p class="text-gray-600 text-xl py-1">
+							Alpha v1.0.0 (shown as Infdev in game) - June 30, 2010
+						</p>
+					</div>
+					
+					
+					
+			</div>
+		</div>
+	</body>
+</html>
